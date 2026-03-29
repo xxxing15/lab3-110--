@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <style>
+        body {
+            margin: 30px;
+            background-color: #fdf8f4;
+        }
+        /* 外层大框更精致 */
+        .resume-container {
+            border: 3px solid #4a4a4a;
+            padding: 25px;
+            background: #fff;
+            width: fit-content;
+            margin: 0 auto;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px 14px;
+            text-align: left;
+            vertical-align: middle;
+            font-size: 15px;
+        }
+        /* 表头温柔渐变配色 */
+        th {
+            background: linear-gradient(135deg, #f8f1e9, #f0e6dc);
+            color: #5a4a3f;
+            font-weight: 600;
+        }
+        td {
+            background-color: #fff;
+        }
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            color: #444;
+            letter-spacing: 1px;
+        }
+        .photo img {
+            width: 120px;
+            height: auto;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+        .icon {
+            margin-right: 6px;
+        }
+        .self-eval {
+            line-height: 1.9;
+            color: #333;
+        }
+        /* 鼠标悬浮效果 */
+        tr:hover td {
+            background-color: #fcf7f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <table>
+            <caption>个人简历</caption>
+            <tr>
+                <th>姓名</th>
+                <td>盖烜平</td>
+                <th>性别</th>
+                <td>女</td>
+                <th>年龄</th>
+                <td>20</td>
+                <td rowspan="3" class="photo">
+                    <img src="weverse_0-285738411.jpg" alt="照片">
+                   
+                </td>
+            </tr>
+            <tr>
+                <th>籍贯</th>
+                <td>中国</td>
+                <th><span class="icon">📞</span>联系电话</th>
+                <td>010-1234-5678</td>
+                <th><span class="icon">📧</span>电子邮箱</th>
+                <td>15215463918@163.com</td>
+            </tr>
+            <tr>
+                <th><span class="icon">🎓</span>学历</th>
+                <td>本科</td>
+                <th>健康状况</th>
+                <td>良好</td>
+                <th>婚姻状况</th>
+                <td>未婚</td>
+            </tr>
+            <tr>
+                <th><span class="icon">💼</span>求职意向</th>
+                <td>艺人/表演者</td>
+                <th>专业</th>
+                <td>计算机科学与技术</td>
+                <th>毕业院校</th>
+                <td colspan="3">烟台理工学院</td>
+            </tr>
+            <tr>
+                <th>技能证书</th>
+                <td colspan="7">四级</td>
+            </tr>
+            <tr>
+                <th>个人特长与爱好</th>
+                <td colspan="7">爱好摄影、旅行，擅长团队协作与沟通</td>
+            </tr>
+            <tr>
+                <th>项目经历</th>
+                <td colspan="7">积极参与公益活动和社会实践</td>
+            </tr>
+            <tr>
+                <th>自我评价</th>
+                <td colspan="7" class="self-eval">
+                    本人性格开朗阳光，对待工作认真严谨、责任心强，具备良好的沟通表达与团队协作能力。在校期间系统学习了计算机科学与技术专业知识，掌握了基础编程与网页开发技能。
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
